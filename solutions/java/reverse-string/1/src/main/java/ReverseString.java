@@ -1,0 +1,10 @@
+import java.util.*;
+import java.lang.String;
+import java.util.stream.IntStream;
+
+class ReverseString {
+
+    String reverse(String inputString) {
+        return new StringBuilder(inputString).reverse().toString();
+    }
+}
